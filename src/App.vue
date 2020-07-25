@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <nav-bar></nav-bar>
     <my-Profile></my-Profile>
     <mySkills></mySkills>
     <myPortfolio></myPortfolio>
@@ -11,10 +12,11 @@
 import mySkills from './components/pages/mySkills';
 import myProfile from './components/pages/myProfile';
 import myPortfolio from './components/pages/myPortfolio';
+import NavBar from './components/atoms/NavBar';
 
 export default {
   components: {
-    myProfile, mySkills, myPortfolio,
+    myProfile, mySkills, myPortfolio, NavBar
   }
 
 };

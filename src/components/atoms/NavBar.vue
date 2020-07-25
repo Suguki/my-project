@@ -21,7 +21,7 @@
 
 <style scoped>
     .navbar {
-    height: 40px;
+    height: 60px;
     filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.6));
   }
 
