@@ -1,9 +1,29 @@
 <template>
   <div class="my-skills container" id="my-skills">
     <h1>My Skills</h1>
+    <br />
+    <h3>Language</h3>
     <div class="card-deck row">
-      <div v-for="(cardItem, key) in cardItems" :key="key" class="col-xs-12 col-md-6">
-        <card v-bind="cardItem" />
+      <div v-for="(cardItem, key) in cardItems" :key="key" class="col-xs-12 col-md-4">
+        <card v-bind="cardItem" style="height: 250px" />
+      </div>
+    </div>
+    <br />
+    <br />
+    <hr />
+    <h3>Framework/library</h3>
+    <div class="card-deck row">
+      <div v-for="(framework, key) in frameworks" :key="key" class="col-xs-12 col-md-6">
+        <card v-bind="framework" style="height: 250px" />
+      </div>
+    </div>
+    <br />
+    <br />
+    <hr />
+    <h3>Others</h3>
+    <div class="card-deck row">
+      <div v-for="(other, key) in others" :key="key" class="col-xs-12 col-md-6">
+        <card v-bind="other" style="height: 250px" />
       </div>
     </div>
   </div>
@@ -18,28 +38,46 @@ export default {
     return {
       cardItems: [
         {
-          title: "php",
-          description:
-            "CRUD操作や入力ページの実装を1から一人で行うことができるレベルです.",
-          comment: "comment1",
+          title: "HTML&CSS",
+          logo: 'HTML&CSS-logo.png',
+          comment: "CSSライブラリであるBootStrapを用いて簡単なサイトデザインを作ることのできるレベルです.",
         },
         {
           title: "Java Script",
-          description:
-            "簡単なDOM操作を利用し、小規模なアルゴリズムを1からかけるレベルです.またapiの実装などもできます.",
-          comment: "comment2",
+          logo:
+            'JS-logo.png',
+          comment: "簡単なDOM操作を利用し、小規模なアルゴリズムを1からかけるレベルです.Vue.jsを扱うにあたり最低限の基礎知識を持っています.",
         },
         {
-          title: "Lravel",
-          description:
-            "CRUD操作に加え、リレーションテーブルを用いた簡単なアプリを1から一人で実装できるレベルです.",
-          comment: "comment3",
+          title: "php",
+          logo:
+            'php-logo.png',
+          comment: "CRUD操作やログインページの実装(バリデーション含む)を1から一人で行うことができるレベルです.",
+        },
+      ],
+      frameworks: [
+        {
+          title: "Laravel",
+          logo: 'Laravel-logo.png'
+            ,
+          comment: "CRUD機能に加え、DBテーブルのリレーション管理、画像ファイルのアップロード機能の実装を一人で行うことができるレベルです.",
         },
         {
           title: "Vue.js",
-          description:
-            "コンポーネント間のデータ受け渡しやVue-routerなどの基礎知識を利用し、サイトのページの構築を行うことができます.",
-          comment: "comment4",
+          logo: 'Vue.js-logo.png',
+          comment: "セレクトボックスやラジオボタン等のコンポーネントを自作し、当サイトページのようなものを作ることができるレベルです.",
+        },
+      ],
+      others: [
+        {
+          title: "Docker",
+          logo: 'Docker-logo.png',
+          comment: "Dockerを使ってアプリの環境構築を行うことができるレベルです",
+        },
+        {
+          title: "GitHub",
+          logo: 'GitHub-logo.png',
+          comment: "push&pull、marge$rebase、pullRequestなど、チーム開発にあたり必要な最低限の操作知識があります。Soucetreeを使っています.",
         },
       ],
     };
@@ -48,7 +86,7 @@ export default {
 </script>
 <style scoped>
 .my-skills {
-  height: 1000px;
+  height: 1300px;
   background-color: aqua;
 }
 </style>
