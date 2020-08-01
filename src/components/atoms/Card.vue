@@ -5,7 +5,7 @@
               {{ title }}
           </div>
           <div class="profile-body card-body p-2">
-              {{ description }}
+              <img :src="dumpImg()" style="height: 180px">
           </div>
       </div>
 
@@ -25,7 +25,7 @@ export default {
     name: 'Card',
     props: {
         title: String,
-        description: String,
+        logo: String,
         comment: String
     },
     data() {
@@ -36,6 +36,9 @@ export default {
     methods: {
         reverse() {
             this.is_reversed = !this.is_reversed;
+        },
+        dumpImg() {
+            return this.logo;
         }
     }
 }
