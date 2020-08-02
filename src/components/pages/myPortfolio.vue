@@ -12,7 +12,7 @@
           style="max-width: 20rem;"
           class="mb-2 mx-auto"
         >
-          <b-button v-b-modal.pigGameModal>詳細</b-button>
+          <b-button v-b-modal.PigGameModal>詳細</b-button>
 
           <b-modal id="PigGameModal" title="PigGame">
             <div class="my-4">
@@ -36,9 +36,9 @@
           style="max-width: 20rem;"
           class="mb-2 mx-auto"
         >
-          <b-button v-b-modal.kyodokoikuModal>詳細</b-button>
+          <b-button v-b-modal.KyodokoikuModal>詳細</b-button>
 
-          <b-modal id="kyodokoikuModal" title="今日どこ行く？">
+          <b-modal id="KyodokoikuModal" title="今日どこ行く？">
             <div class="my-4">
               <ul>
                 <li>概要：休日何かしたいけど何しようかな...そんなときはこのアプリで案を出すのもいいのではないでしょうか.気分に沿って案を出してくれます。割と細かく案を絞れます。</li>

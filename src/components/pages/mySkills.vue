@@ -75,7 +75,7 @@ export default {
         {
           title: "GitHub",
           logo: 'images/GitHub-logo.png',
-          comment: "push&pull、marge$rebase、pullRequestなど、チーム開発にあたり必要な最低限の操作知識があります。Soucetreeを使っています.",
+          comment: "push&pull、marge&rebase、pullRequestなど、チーム開発にあたり必要な最低限の操作知識があります。Soucetreeを使っています.",
         },
       ],
     };
