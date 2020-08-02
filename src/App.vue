@@ -17,6 +17,11 @@ import NavBar from './components/atoms/NavBar';
 export default {
   components: {
     myProfile, mySkills, myPortfolio, NavBar
+  },
+  data() {
+    return {
+      drawer: false
+    }
   }
 
 };

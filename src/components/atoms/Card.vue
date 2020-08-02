@@ -49,6 +49,7 @@ export default {
     filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.6));
     margin-top: 10px;
   }
+
   .profile-item:active {
     background-color: rgb(102, 102, 102);
   }
