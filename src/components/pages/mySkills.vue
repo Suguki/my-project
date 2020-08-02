@@ -39,44 +39,42 @@ export default {
       cardItems: [
         {
           title: "HTML&CSS",
-          logo: 'HTML&CSS-logo.png',
+          logo: 'images/HTML&CSS-logo.png',
           comment: "CSSライブラリであるBootStrapを用いて簡単なサイトデザインを作ることのできるレベルです.",
         },
         {
           title: "Java Script",
-          logo:
-            'JS-logo.png',
+          logo:'images/JS-logo.png',
           comment: "簡単なDOM操作を利用し、小規模なアルゴリズムを1からかけるレベルです.Vue.jsを扱うにあたり最低限の基礎知識を持っています.",
         },
         {
           title: "php",
-          logo:
-            'php-logo.png',
+          logo:'images/php-logo.png',
           comment: "CRUD操作やログインページの実装(バリデーション含む)を1から一人で行うことができるレベルです.",
         },
       ],
       frameworks: [
         {
           title: "Laravel",
-          logo: 'Laravel-logo.png'
+          logo: 'images/Laravel-logo.png'
             ,
           comment: "CRUD機能に加え、DBテーブルのリレーション管理、画像ファイルのアップロード機能の実装を一人で行うことができるレベルです.",
         },
         {
           title: "Vue.js",
-          logo: 'Vue.js-logo.png',
+          logo: 'images/Vue.js-logo.png',
           comment: "セレクトボックスやラジオボタン等のコンポーネントを自作し、当サイトページのようなものを作ることができるレベルです.",
         },
       ],
       others: [
         {
           title: "Docker",
-          logo: 'Docker-logo.png',
+          logo: 'images/Docker-logo.png',
           comment: "Dockerを使ってアプリの環境構築を行うことができるレベルです",
         },
         {
           title: "GitHub",
-          logo: 'GitHub-logo.png',
+          logo: 'images/GitHub-logo.png',
           comment: "push&pull、marge$rebase、pullRequestなど、チーム開発にあたり必要な最低限の操作知識があります。Soucetreeを使っています.",
         },
       ],
