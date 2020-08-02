@@ -5,7 +5,7 @@
       <div class="col-md-6">
         <b-card
           title="pigGame"
-          img-src="pig_game.png"
+          img-src="images/pig_game.png"
           img-alt="Image"
           img-top
           tag="article"
@@ -29,7 +29,7 @@
       <div class="col-md-6 content-center">
         <b-card
           title="今日どこ行く？"
-          img-src="pig_game.png"
+          img-src="images/pig_game.png"
           img-alt="Image"
           img-top
           tag="article"
@@ -57,7 +57,7 @@
       <div class="col-md-6 text-center">
         <b-card
           title="TripCoffee"
-          img-src="pig_game.png"
+          img-src="images/pig_game.png"
           img-alt="Image"
           img-top
           tag="article"
