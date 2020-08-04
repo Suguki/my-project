@@ -5,7 +5,7 @@
     <h3>Language</h3>
     <div class="card-deck row">
       <div v-for="(cardItem, key) in cardItems" :key="key" class="col-xs-12 col-md-4">
-        <card v-bind="cardItem" style="height: 250px" />
+        <card v-bind="cardItem"  class="cursol img" />
       </div>
     </div>
     <br />
@@ -14,7 +14,7 @@
     <h3>Framework/library</h3>
     <div class="card-deck row">
       <div v-for="(framework, key) in frameworks" :key="key" class="col-xs-12 col-md-6">
-        <card v-bind="framework" style="height: 250px" />
+        <card v-bind="framework" class="cursol img" />
       </div>
     </div>
     <br />
@@ -23,7 +23,7 @@
     <h3>Others</h3>
     <div class="card-deck row">
       <div v-for="(other, key) in others" :key="key" class="col-xs-12 col-md-6">
-        <card v-bind="other" style="height: 250px" />
+        <card v-bind="other" class="cursol img" />
       </div>
     </div>
   </div>
@@ -86,5 +86,13 @@ export default {
 .my-skills {
   height: 1300px;
   background-color: aqua;
+}
+
+.cursol {
+  cursor: pointer;
+}
+
+.img {
+  height: 250px;
 }
 </style>

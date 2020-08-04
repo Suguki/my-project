@@ -5,7 +5,7 @@
       <div class="col-md-6">
         <b-card
           title="pigGame"
-          img-src="images/pig_game.png"
+          img-src="images/my-icon.JPG"
           img-alt="Image"
           img-top
           tag="article"
