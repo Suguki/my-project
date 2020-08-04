@@ -2,19 +2,19 @@
   <div class="my-skills container" id="my-skills">
     <h1>My Skills</h1>
     <br />
-    <h3>Language</h3>
+    <h3>Languages</h3>
     <div class="card-deck row">
       <div v-for="(cardItem, key) in cardItems" :key="key" class="col-xs-12 col-md-4">
-        <card v-bind="cardItem"  class="cursol img" />
+        <card v-bind="cardItem"  class="cursor img" />
       </div>
     </div>
     <br />
     <br />
     <hr />
-    <h3>Framework/library</h3>
+    <h3>Frameworks/Libraries</h3>
     <div class="card-deck row">
       <div v-for="(framework, key) in frameworks" :key="key" class="col-xs-12 col-md-6">
-        <card v-bind="framework" class="cursol img" />
+        <card v-bind="framework" class="cursor img" />
       </div>
     </div>
     <br />
@@ -23,7 +23,7 @@
     <h3>Others</h3>
     <div class="card-deck row">
       <div v-for="(other, key) in others" :key="key" class="col-xs-12 col-md-6">
-        <card v-bind="other" class="cursol img" />
+        <card v-bind="other" class="cursor img" />
       </div>
     </div>
   </div>
@@ -83,12 +83,16 @@ export default {
 };
 </script>
 <style scoped>
+h1 {
+  font-size: 70px;
+}
+
 .my-skills {
   height: 1300px;
   background-color: aqua;
 }
 
-.cursol {
+.cursor {
   cursor: pointer;
 }
 
