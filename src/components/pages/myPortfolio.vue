@@ -48,7 +48,7 @@
                 <li><span class="font-weight">使用言語：</span>HTML/CSS/Bootstrap/PHP<br>
                 アプリの機能を実装するに当たり、DBを使ったバックエンド処理が必要であったためphpを使用し作成しました。</li>
                 <li><span class="font-weight">使用環境: </span>Docker/MySQL/nginx</li>
-                <li><a href="#">Githubページへ</a></li>
+                <li><a target="_blank" href="https://github.com/Suguki/kyodokoiku">Githubページへ</a></li>
               </ul>
             </div>
           </b-modal>
@@ -78,7 +78,7 @@
                 <li><span class="font-weight">使用言語：</span>HTML/CSS/Bootstrap/PHP/Laravel
                 <br>今日どこ行く？を作成phpの基礎をしある程度学んだので、フレームワークを利用しもう少しリッチなアプリを作成したいと思いLaravelを使いました。</li>
                 <li><span class="font-weight">使用環境：</span> Docker/MySQL/nginx</li>
-                <li><a href="#">Githubページへ</a></li>
+                <li><a href="https://github.com/Suguki/cafe_review" target="_blank">Githubページへ</a></li>
               </ul>
             </div>
           </b-modal>
@@ -94,7 +94,7 @@ h1 {
 }
 
 .my-portfolio {
-  height: 800px;
+  height: 850px;
   background-color: palevioletred;
 }
 
