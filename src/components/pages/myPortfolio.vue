@@ -31,7 +31,7 @@
       <div class="col-md-6 content-center">
         <b-card
           title="今日どこ行く？"
-          img-src="images/pig_game.png"
+          img-src="images/whereAreYouGoToday.png"
           img-alt="Image"
           img-top
           tag="article"
@@ -61,7 +61,7 @@
       <div class="col-md-6 text-center">
         <b-card
           title="TripCoffee"
-          img-src="images/pig_game.png"
+          img-src="images/Trip-Coffee.png"
           img-alt="Image"
           img-top
           tag="article"
