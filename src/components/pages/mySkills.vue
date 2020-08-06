@@ -1,11 +1,11 @@
 <template>
-  <div class="my-skills container" id="my-skills">
+  <div class="my-skills container-fluid h-100" id="my-skills">
     <h1>My Skills</h1>
     <br />
     <h3>Languages</h3>
     <div class="card-deck row">
-      <div v-for="(cardItem, key) in cardItems" :key="key" class="col-xs-12 col-md-4">
-        <card v-bind="cardItem"  class="cursor img" />
+      <div v-for="(cardItem, key) in cardItems" :key="key" class="col-md-4">
+        <card v-bind="cardItem"  class="cursor img img-responsive" />
       </div>
     </div>
     <br />
@@ -13,7 +13,7 @@
     <hr />
     <h3>Frameworks/Libraries</h3>
     <div class="card-deck row">
-      <div v-for="(framework, key) in frameworks" :key="key" class="col-xs-12 col-md-6">
+      <div v-for="(framework, key) in frameworks" :key="key" class="col-md-6">
         <card v-bind="framework" class="cursor img" />
       </div>
     </div>
@@ -22,7 +22,7 @@
     <hr />
     <h3>Others</h3>
     <div class="card-deck row">
-      <div v-for="(other, key) in others" :key="key" class="col-xs-12 col-md-6">
+      <div v-for="(other, key) in others" :key="key" class="col-md-6">
         <card v-bind="other" class="cursor img" />
       </div>
     </div>

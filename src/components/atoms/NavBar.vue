@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
+    <nav class=" container-fluid navbar navbar-expand navbar-dark bg-dark fixed-top">
       <div
         class="collapse navbar-collapse justify-content-center custom-nav"
         id="navbarSupportedContent"

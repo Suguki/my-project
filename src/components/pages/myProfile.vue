@@ -1,14 +1,14 @@
 <template>
-  <div class="my-profile container" id="my-profile">
-    <div class>
+  <div class="my-profile container-fluid h-100" id="my-profile">
+    <div>
       <h1>My Profile</h1>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-md-4 parallel img-edge">
-        <img src="images/my-icon.JPG" />
+      <div class="col-md-4 img-edge">
+        <img src="images/my-icon.JPG" class="col-md-4 img" />
       </div>
-      <div class="col-xs-12 col-md-8 parallel">
-        <ul>
+      <div class="col-md-8 h-100 parallel">
+        <ul class="col-md-12">
           <li>
             <h5 class="font-weight">名前:</h5>
           </li>
@@ -65,8 +65,20 @@ ul {
   margin: 0px;
 }
 
+.img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
 .img-edge img {
   border-radius: 100px;
+  vertical-align: middle;
 }
 
 .font-weight {

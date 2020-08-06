@@ -1,5 +1,5 @@
 <template>
-  <div class="my-portfolio container" id="my-portfolio">
+  <div class="my-portfolio container-fluid h-100" id="my-portfolio">
     <h1>My Portfolio</h1>
     <div class="card-deck row">
       <div class="col-md-6">
