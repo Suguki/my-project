@@ -3,17 +3,19 @@
     <div>
       <h1>My Profile</h1>
     </div>
+    <br />
+    <br />
     <div class="row">
       <div class="col-md-4 img-edge">
-        <img src="images/my-icon.JPG" class="col-md-4 img" />
+        <img src="images/my-icon.JPG" class="img" />
       </div>
-      <div class="col-md-8 h-100 parallel">
-        <ul class="col-md-12">
+      <div class="col-md-8">
+        <ul>
           <li>
             <h5 class="font-weight">名前:</h5>
           </li>
           <p class="space">藤田 佑真</p>
-
+          <br />
           <li>
             <h5 class="font-weight">前職：</h5>
           </li>
@@ -21,6 +23,14 @@
             メック株式会社 研究開発本部 技術開発センター
             <br />化学メーカーで電子基板の製造工程に用いられる薬液の開発をしていました。
           </p>
+        </ul>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div claaa="row">
+      <div class="col-md-12 h-100 parallel">
+        <ul class="col-md-12">
           <li>
             <h5 class="font-weight">自己紹介：</h5>
           </li>
@@ -30,6 +40,7 @@
             勤務地は近畿圏内を希望しています。
             業界未経験ではありますが、業務時間外の勉強を惜しまず、いち早く業務に馴染めるよう食らいついてく所存です。
           </p>
+          <br />
           <li>
             <h5 class="font-weight">この先やってみたいこと:</h5>
           </li>
