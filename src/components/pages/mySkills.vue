@@ -26,6 +26,7 @@
         <card v-bind="other" class="cursor img" />
       </div>
     </div>
+    <br>
   </div>
 </template>
 <script>
