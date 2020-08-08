@@ -8,8 +8,10 @@
     </div>
 
     <div v-else>
-      <div class="profile-title card-header text-info">{{ title}}</div>
-      <div class="profile-body card-body p-2">{{ comment }}</div>
+      <div class="profile-title card-header text-info">{{ title }}</div>
+      <div class="profile-body card-body p-2">
+        <div class="position">{{ comment }}</div>
+      </div>
     </div>
   </div>
 </template>
@@ -53,5 +55,10 @@ export default {
   height: auto;
   max-width: 100%;
   margin: auto;
+}
+
+.position {
+  position: absolute;
+  top: 50%;
 }
 </style>

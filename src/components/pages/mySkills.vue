@@ -71,7 +71,7 @@ export default {
         {
           title: "Docker",
           logo: 'images/Docker-logo.png',
-          comment: "Dockerを使ってアプリの環境構築を行うことができるレベルです",
+          comment: "Dockerとはなにか、ついて知識レベルで習得している段階で、まだDockerFileを作成し、自力でアプリの環境構築することができません。現在学習を勧めている段階です.",
         },
         {
           title: "GitHub",

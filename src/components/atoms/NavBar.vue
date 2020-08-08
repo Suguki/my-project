@@ -6,9 +6,9 @@
         id="navbarSupportedContent"
       >
         <div class="navbar-nav">
-          <a v-scroll-to="'#my-profile'">My Profile</a>
-          <a v-scroll-to="'#my-skills'">My Skills</a>
-          <a v-scroll-to="'#my-portfolio'">My Portfolio</a>
+          <a v-scroll-to="'#my-profile'"><strong>My Profile</strong></a>
+          <a v-scroll-to="'#my-skills'"><strong>My Skills</strong></a>
+          <a v-scroll-to="'#my-portfolio'"><strong>My Portfolio</strong></a>
         </div>
       </div>
     </nav>
@@ -16,12 +16,8 @@
 </template>
 
 <script>
-
-
 export default {
-  components: {
-
-  },
+  components: {},
   data() {
     return {
       drawer: true,
