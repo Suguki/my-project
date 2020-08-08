@@ -14,6 +14,12 @@
           <p class="space">藤田 佑真</p>
           <br />
           <li>
+            <h5 class="font-weight">メールアドレス:</h5>
+          </li>
+          <a href="mailto:suguki.cr@gmaol.com">suguki.cr@gmaol.com</a>
+          <br />
+          <br>
+          <li>
             <h5 class="font-weight">前職：</h5>
           </li>
           <p class="space">
