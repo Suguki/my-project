@@ -4,6 +4,9 @@
     <my-Profile></my-Profile>
     <mySkills></mySkills>
     <myPortfolio></myPortfolio>
+    <div class="position">
+      <scroll-btn></scroll-btn>
+    </div>
   </div>
 </template>
 
@@ -12,6 +15,7 @@ import mySkills from "./components/pages/mySkills";
 import myProfile from "./components/pages/myProfile";
 import myPortfolio from "./components/pages/myPortfolio";
 import NavBar from "./components/atoms/NavBar";
+import ScrollBtn from "./components/atoms/ScrollBtn";
 
 export default {
   components: {
@@ -19,6 +23,8 @@ export default {
     mySkills,
     myPortfolio,
     NavBar,
+    ScrollBtn
+
   },
   data() {
     return {
@@ -44,6 +50,11 @@ export default {
 }
 #my-portfolio {
   padding-top: 40px;
+}
+.position {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
 }
 </style>
 
