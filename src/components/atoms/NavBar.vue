@@ -6,9 +6,9 @@
         id="navbarSupportedContent"
       >
         <div class="navbar-nav">
-          <a v-scroll-to="'#my-profile'"><strong>My Profile</strong></a>
-          <a v-scroll-to="'#my-skills'"><strong>My Skills</strong></a>
-          <a v-scroll-to="'#my-portfolio'"><strong>My Portfolio</strong></a>
+          <a v-scroll-to="'#my-profile'" class="cursor"><strong>My Profile</strong></a>
+          <a v-scroll-to="'#my-skills'" class="cursor"><strong>My Skills</strong></a>
+          <a v-scroll-to="'#my-portfolio'" class="cursor"><strong>My Portfolio</strong></a>
         </div>
       </div>
     </nav>
@@ -45,7 +45,6 @@ export default {
   height: 60px;
   filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.6));
 }
-
 .custom-nav {
   overflow-x: scroll;
   overflow-y: hidden;
@@ -55,7 +54,6 @@ export default {
   height: 40px;
   color: aliceblue;
 }
-
 .navbar-nav a {
   width: 100px;
   padding-top: 9px;
@@ -63,5 +61,8 @@ export default {
 }
 .navbar-nav a:hover {
   background-color: darkgray;
+}
+.cursor {
+  cursor: pointer;
 }
 </style>

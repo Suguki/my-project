@@ -1,6 +1,6 @@
 <template>
   <transition name="fade">
-    <div id="pagetop" class="fixed right-0 bottom-0" v-show="scrollY > 100" @click="moveToTop">
+    <div id="pagetop" class="fixed right-0 bottom-0 cursor"  v-show="scrollY > 100" @click="moveToTop">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="48"
@@ -51,5 +51,7 @@ export default {
 };
 </script>
 <style scoped>
-
+.cursor {
+  cursor: pointer;
+}
 </style>
