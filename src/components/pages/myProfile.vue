@@ -9,14 +9,14 @@
       <div class="col-md-7">
         <ul>
           <li>
-            <h5 class="font-weight">名前:</h5>
+            <h5 class="font-weight">名前：</h5>
           </li>
-          <p class="space">藤田 佑真</p>
+          <a href="https://github.com/Suguki" target="_blank" class="space">藤田 佑真</a>
           <br />
           <li>
-            <h5 class="font-weight">メールアドレス:</h5>
+            <h5 class="font-weight">メールアドレス：</h5>
           </li>
-          <a href="mailto:suguki.cr@gmail.com">suguki.cr@gmail.com</a>
+          <a href="mailto:suguki.cr@gmail.com" target="_blank">suguki.cr@gmail.com</a>
           <br />
           <br>
           <li>
@@ -47,7 +47,7 @@
           </p>
           <br />
           <li>
-            <h5 class="font-weight">自身の強み・実績</h5>
+            <h5 class="font-weight">自身の強み・実績：</h5>
           </li>
           <p class="space">
             学生時代の部活動
@@ -60,7 +60,7 @@
           </p>
           <br />
           <li>
-            <h5 class="font-weight">専攻分野:</h5>
+            <h5 class="font-weight">専攻分野：</h5>
           </li>
           <p class="space">
             前職で培った電子基板業界の知識があります。
@@ -73,7 +73,7 @@
           </p>
           <br />
           <li>
-            <h5 class="font-weight">この先やってみたいこと:</h5>
+            <h5 class="font-weight">この先やってみたいこと：</h5>
           </li>
           <p class="space">
             フロント、バックエンドどちらにも強い興味がありますが、まずはバックエンドの開発業務に携わりたいと考えています。
@@ -81,12 +81,12 @@
           </p>
           <br />
           <li>
-            <h5 class="font-weight">最後に:</h5>
+            <h5 class="font-weight">最後に：</h5>
           </li>
           <p class="space">
-            WEBエンジニアとしての開発業務に強い好奇心はありますが、まずは自社の製品、サービスに愛を持って仕事をして
-            いきたいです。前職での経験をもとに、貴社のビジネスに対して愛が持てそうか、という観点を大事に求職活動をさせて頂いて
-            おります。採用いただけましたら貴社の事業拡大に貢献すべく、精一杯努力していくつもりです。
+            WEBエンジニアとしての開発業務に強い好奇心はありますが、まずは自社の製品、サービスに愛を持って仕事をしていきたいです。
+            前職での経験をもとに、貴社のビジネスに対して愛が持てそうか、という観点を大事に求職活動をさせて頂いております。
+            採用いただけましたら貴社の事業拡大に貢献すべく、精一杯努力していくつもりです。
             以上、よろしくお願いいたします。
           </p>
         </ul>

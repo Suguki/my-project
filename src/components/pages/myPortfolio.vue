@@ -18,10 +18,10 @@
             <div class="my-4">
               <ul>
                 <li><span class="font-weight">概要：</span>二人でサイコロを振り、どちらが早く出た目の合計が100になるか競うゲーム。意外とゲーム性あります。</li>
-                <li><span class="font-weight">使用言語</span>JavaScript/HMTL/CSS<br>
+                <li><span class="font-weight">使用言語：</span>JavaScript/HMTL/CSS<br>
                 DOM操作を利用し、ページ遷移することなくアクションを実行するため、JavaScriptを使用し作成しました。
                 </li>
-                <li><span class="font-weight">使用環境</span></li>
+                <li><span class="font-weight">使用環境：</span>HTML＋JSファイルをブラウザで読みこんで使用します。</li>
                 <li><a href="#">Githubページへ</a></li>
               </ul>
             </div>
@@ -47,7 +47,7 @@
                 気分に沿って案を出してくれます。割と細かく案を絞れます。</li>
                 <li><span class="font-weight">使用言語：</span>HTML/CSS/Bootstrap/PHP<br>
                 アプリの機能を実装するに当たり、DBを使ったバックエンド処理が必要であったためphpを使用し作成しました。</li>
-                <li><span class="font-weight">使用環境: </span>Docker/MySQL/nginx</li>
+                <li><span class="font-weight">使用環境：</span>Docker/MySQL/nginx</li>
                 <li><a target="_blank" href="https://github.com/Suguki/kyodokoiku">Githubページへ</a></li>
               </ul>
             </div>
@@ -74,7 +74,7 @@
             <div class="my-4">
               <ul>
                 <li><span class="font-weight">概要：</span>カフェ好きが高じて誕生しました.今日どこ行く？</li>
-                <p>とは違いレビューや店の評価ができます.</p>
+                <p>とは違いレビューや店の評価ができます。</p>
                 <li><span class="font-weight">使用言語：</span>HTML/CSS/Bootstrap/PHP/Laravel
                 <br>今日どこ行く？を作成し、phpの基礎をある程度学んだので、フレームワークを利用しもう少し機能的なアプリを作成したいと思いLaravelを用いて作成しました。</li>
                 <li><span class="font-weight">使用環境：</span> Docker/MySQL/nginx</li>
