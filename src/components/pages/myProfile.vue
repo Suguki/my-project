@@ -16,7 +16,7 @@
           <li>
             <h5 class="font-weight">メールアドレス:</h5>
           </li>
-          <a href="mailto:suguki.cr@gmaol.com">suguki.cr@gmaol.com</a>
+          <a href="mailto:suguki.cr@gmail.com">suguki.cr@gmaol.com</a>
           <br />
           <br>
           <li>
