@@ -76,7 +76,7 @@
                 <li><span class="font-weight">概要：</span>カフェ好きが高じて誕生しました.今日どこ行く？</li>
                 <p>とは違いレビューや店の評価ができます.</p>
                 <li><span class="font-weight">使用言語：</span>HTML/CSS/Bootstrap/PHP/Laravel
-                <br>今日どこ行く？を作成phpの基礎をしある程度学んだので、フレームワークを利用しもう少しリッチなアプリを作成したいと思いLaravelを使いました。</li>
+                <br>今日どこ行く？を作成し、phpの基礎をある程度学んだので、フレームワークを利用しもう少し機能的なアプリを作成したいと思いLaravelを用いて作成しました。</li>
                 <li><span class="font-weight">使用環境：</span> Docker/MySQL/nginx</li>
                 <li><a href="https://github.com/Suguki/cafe_review" target="_blank">Githubページへ</a></li>
               </ul>
